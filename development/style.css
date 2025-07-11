@@ -26,16 +26,17 @@ nav {
     font-size:16px;
     border:none;
     border-radius:10px;
+    margin-top:0;
 }
 /* banner section */
 .banner {
     color:#252432;
     font-weight:bold;
     font-size:65px;
-    margin:309px 152px;
-    text-align:center;
+    margin:116px 150px 152px;
     /*width:884px;*/
 }
+
 .main-header {
     background-image: url("../Assets/Hero-bg.png");
 }
@@ -64,7 +65,15 @@ nav {
     font-weight:bold;
     font-size:38px;
 }
-.productive {
+/*.productive {
     max-width:1140px;
     margin:0 auto;
+    border-radius:10px;*/
+}
+div.productive-description {
+    display:flex;
+}
+.statics {
+    display:flex;
+    align-items:center;
 }
