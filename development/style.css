@@ -32,13 +32,12 @@ nav {
     color:#252432;
     font-weight:bold;
     font-size:65px;
-    margin:309px 278px;
+    margin:309px 152px;
     text-align:center;
-    width:884px;
-    height:152px;
+    /*width:884px;*/
 }
 .main-header {
-    background-image: url{"ui/banner.png"};
+    background-image: url("../Assets/Hero-bg.png");
 }
 /* header ends here */
 /* section starts here */
@@ -48,12 +47,24 @@ nav {
     font-weight:regular;
 }
 /* section ends here */
-section {
+.section-container {
     display:flex;
+}
+.nav-link {
+    display:block; 
     align-items:center;
     justify-content:space-between;
 }
-nav {
-    display:flex;
-    align-items:center;
+.section-title { 
+    font-weight:bold;
+    font-size:42px;
+}
+/*  productive here */
+.productive-title {
+    font-weight:bold;
+    font-size:38px;
+}
+.productive {
+    max-width:1140px;
+    margin:0 auto;
 }
