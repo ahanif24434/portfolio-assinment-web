@@ -16,7 +16,7 @@ nav {
 .nav-title{
     font-size:34px;
     color:#4E47FF;
-    margin-bottom:37px;
+   margin-bottom:0 auto;
 }
 .btn-primary {
     background-color:#4E47FF;
@@ -32,6 +32,28 @@ nav {
     color:#252432;
     font-weight:bold;
     font-size:65px;
-    margin:309px 267px 237px 267px;
+    margin:309px 278px;
+    text-align:center;
+    width:884px;
+    height:152px;
+}
+.main-header {
+    background-image: url{"ui/banner.png"};
 }
 /* header ends here */
+/* section starts here */
+.sectin-sub-title {
+    color:#252432;
+    font-size:24px;
+    font-weight:regular;
+}
+/* section ends here */
+section {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+nav {
+    display:flex;
+    align-items:center;
+}
