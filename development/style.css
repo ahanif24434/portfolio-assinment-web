@@ -29,15 +29,21 @@ nav {
     font-size:16px;
     border:none;
     border-radius:10px;
-    margin-top:0;
+    margin-bottom:30px;
 }
 /* banner section */
 .banner {
+    padding-bottom:30px;
+    margin:116px 150px 152px;
+    text-align:center;
+    /*width:884px;*/
+}
+.banner-title {
     color:#252432;
     font-weight:bold;
     font-size:65px;
-    margin:116px 150px 152px;
-    /*width:884px;*/
+    text-align:center;
+    margin-bottom:10px;
 }
 
 .main-header {
@@ -71,7 +77,7 @@ nav {
 /*  productive here */
 .about-productive {
     background-color:#D0BCFF;
-    margin:100px auto;
+    margin:50px auto;
     max-width:1140px;
     border-radius:20px;
     padding:40px 20px;
@@ -82,7 +88,7 @@ nav {
 .about-items {
     display:flex;
     justify-content:space-around;
-    gap:30px;
+    gap:20px;
      border-radius:10px;
      flex-wrap:wrap;
 }
@@ -161,7 +167,7 @@ label {
     margin-bottom:10px;
 }
 .section-left h3 {
-    color:#000000;
+    color:#000000;  
     font-weight:bold;
     font-size:90px;
     width:528px;
@@ -175,11 +181,12 @@ label {
 /* focus starts here */
 .focus {
     background-color:white;
+    max-width:1140px;
    text-align:center;
-   margin-bottom:0;
      border-radius:14px;
      overflow:hidden; 
-     padding:71px 150px;
+     margin:71px 150px;
+     margin-top:15px;
 }
 .focus p {
     text-align:center;
@@ -196,7 +203,7 @@ label {
 }
  .focus-image {
      border-radius:48px;
-    margin-top:25px;
+    margin-bottom:40px;
      
 }
 input[type=text], input[type=email] {
