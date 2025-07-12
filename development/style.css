@@ -61,22 +61,39 @@ nav {
     font-size:42px;
 }
 /*  productive here */
-.productive-title {
+.about-productive {
+    background-color:#D8BCFF;
+    margin:130px 150px;
+    max-width:1140px;
+    margin:0 auto;
+    border-radius:10px;
+    
+}
+.about-items {
+    display:flex;
+    justify-content:space-around;
+    margin: 50px 142px;
+    padding: 10px;
+}
+.product-heading {
+    text-align:center;
+    padding-top:100px;
+    color:#252432;
     font-weight:bold;
     font-size:38px;
 }
-/*.productive {
-    max-width:1140px;
-    margin:0 auto;
-    border-radius:10px;*/
+.product-title {
+    color: #4E47FF;
+    font-size:50px;
 }
-div.productive-description {
-    display:flex;
+
+.product-description {
+    font-size:20px;
+    margin-top:0;
 }
-.statics {
-    display:flex;
-    align-items:center;
-}
+
+
+
 /* navbar starts here */
 .main-clear {
     display:flex;
