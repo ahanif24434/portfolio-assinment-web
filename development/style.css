@@ -7,6 +7,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+* {
+    box-sizing:border-box;
+}
 nav {
     display:flex;
     align-items:center;
@@ -50,6 +53,8 @@ nav {
 /* section ends here */
 .section-container {
     display:flex;
+    align-items:flex-start;
+    flex-wrap:wrap;
 }
 .nav-link {
     display:block; 
@@ -62,15 +67,17 @@ nav {
 }
 /*  productive here */
 .about-productive {
-    background-color:#D8BCFF;
-    margin:130px 150px;
+    /*background-color:#D8BCFF;*/
+    margin:130px auto 0 auto;
     max-width:1140px;
-    margin:0 auto;
     border-radius:10px;
-    
+    margin-bottom:0;
+    height:auto;
+    overflow:auto;
 }
 .about-items {
     display:flex;
+    align-items:center;
     justify-content:space-around;
     margin: 50px 142px;
     padding: 10px;
@@ -91,9 +98,46 @@ nav {
     font-size:20px;
     margin-top:0;
 }
+/* skill starts here */
+.reviews h2 {
+    font-weight:600;
+    font-size:24px;
+    text-align:center;
+    margin-top:30px;
+}
+.reviews {
+    text-align:center;
+    padding:50px 20px;
+}
+.skill-description{
+    font-size:16px;
+    text-align:center;
+}
+.review-container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.reviewer {
+    display:flex;
+    border-radius:10px;
+    margin-top:15px;
+}
+.review-card {
+background-color:white;
+max-width:300px;
+border-radius:10px;
+padding:20px;
+text-align:left;
+}
+.reviewer img {
+width:40px;
+height:40px;
+border-radius:50%;
+margin-right:10px;
 
-
-
+}
 /* navbar starts here */
 .main-clear {
     display:flex;
